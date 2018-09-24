@@ -10,7 +10,6 @@ const countriesReducer = function (state = initialState, action) {
         case GET_COUNTRIES:
             return Object.assign({}, state, {countries: state.countries})
     }
-
     return state;
 };
 
